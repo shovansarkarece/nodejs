@@ -9,6 +9,8 @@
 2. In the browser 
 3. On a small watch
 
+![image](https://github.com/user-attachments/assets/5d7ef06b-cd25-424c-8acb-80b749da2259)
+
 ## V8 engine?
 
 - **The V8 engine is an open-source JavaScript engine developed by Google.**
