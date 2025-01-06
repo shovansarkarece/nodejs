@@ -17,3 +17,11 @@
 - **It is used to execute JavaScript code in various environments, most notably in the Google Chrome web browser.**
 - **Mozilla has their own JS engine - SpiderMonkey**
 - **Safari - JavaScriptCore**
+
+## Installing Node.js
+
+- **`https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04`**
+
+- **Build from source**
+- **Using a package manager (brew, chocolat)**
+- **Using nvm**
