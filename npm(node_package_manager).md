@@ -12,7 +12,9 @@
 ​
 ## Installing external dependencies
 - **`npm install chalk`**
-​
+
+​![image](https://github.com/user-attachments/assets/df8512a0-52d3-4c99-8c10-d72c340fff07)
+
 ## Write some code
 - **`const chalk = require('chalk');`**
 - **`console.log(chalk.blue('Hello, world!'));`**
