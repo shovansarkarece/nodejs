@@ -33,6 +33,9 @@ module.exports.subtract = (a, b) => a - b;
 const math = require('./math');
 console.log(math.add(5, 3)); // Output: 8
 ```
+# Another example
+![image](https://github.com/user-attachments/assets/21577a6b-363a-4082-8d9a-770591e28701)
+
 # 3. Third-Party Modules
 - **Third-party modules are packages installed via npm (Node Package Manager).These are typically downloaded from the npm registry.**
 ### Popular Third-Party Modules:
