@@ -34,7 +34,8 @@ const math = require('./math');
 console.log(math.add(5, 3)); // Output: 8
 ```
 # Another example
-![image](https://github.com/user-attachments/assets/21577a6b-363a-4082-8d9a-770591e28701)
+![image](https://github.com/user-attachments/assets/bdbbdd2e-eb2c-4b5a-ac7b-6c6d59049f03)
+
 
 # 3. Third-Party Modules
 - **Third-party modules are packages installed via npm (Node Package Manager).These are typically downloaded from the npm registry.**
