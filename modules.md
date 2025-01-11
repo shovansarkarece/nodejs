@@ -18,3 +18,18 @@ fs.readFile('example.txt', 'utf8', (err, data) => {
   console.log(data);
 });
 ```
+# 2. Local Modules
+- **Local modules are user-defined modules created for specific applications.**
+- **These can contain functions, classes, or objects to be reused across the application.**
+
+## Creating and Using a Local Module:
+- **Create a file, e.g., math.js:**
+```
+module.exports.add = (a, b) => a + b;
+module.exports.subtract = (a, b) => a - b;
+```
+## Import and use it:
+```
+const math = require('./math');
+console.log(math.add(5, 3)); // Output: 8
+```
