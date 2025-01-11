@@ -48,3 +48,17 @@ npm install chalk
 const chalk = require('chalk');
 console.log(chalk.green('Hello, World!'));
 ```
+# Recommended
+## 4. ES Modules (ECMAScript Modules)
+- **Starting with Node.js 12, Node.js supports ES modules using the .mjs extension or by setting "type": "module" in package.json.**
+- **Example:**
+- **Create a file, e.g., math.mjs:**
+```
+export const add = (a, b) => a + b;
+export const subtract = (a, b) => a - b;
+```
+- **Import and use it:**
+```
+import { add, subtract } from './math.mjs';
+console.log(add(5, 3)); // Output: 8
+```
