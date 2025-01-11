@@ -66,5 +66,7 @@ import { add, subtract } from './math.mjs';
 console.log(add(5, 3)); // Output: 8
 ```
 # Another example
-![image](https://github.com/user-attachments/assets/e89e9259-ae87-4cc9-a552-50c1bdba4ec1)
+![image](https://github.com/user-attachments/assets/2cfbb960-5379-4153-a32e-359340d1653a)
+
+
 
