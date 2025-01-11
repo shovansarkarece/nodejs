@@ -33,3 +33,18 @@ module.exports.subtract = (a, b) => a - b;
 const math = require('./math');
 console.log(math.add(5, 3)); // Output: 8
 ```
+# 3. Third-Party Modules
+- **Third-party modules are packages installed via npm (Node Package Manager).These are typically downloaded from the npm registry.**
+### Popular Third-Party Modules:
+- **express:** A web framework.
+- **mongoose:** MongoDB object modeling.
+- **lodash:** Utility library for JavaScript.
+- **axios:** HTTP client for making API requests.
+- **chalk:** For styling terminal text.
+### Installing and Using Third-Party Modules:
+- **Install the package:**
+```
+npm install chalk
+const chalk = require('chalk');
+console.log(chalk.green('Hello, World!'));
+```
