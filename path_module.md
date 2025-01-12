@@ -4,6 +4,7 @@
 # join two or more file
 - **It is useful when we use server side rendering as well template engine**
 ```
+import path from 'path'
 const fullPath = path.join('/path','index.py','file.java')
 console.log("files join = ",fullPath)
 ```
@@ -12,6 +13,7 @@ console.log("files join = ",fullPath)
 # Absolute path
 - **Absolute path will return the whole path where our file is located**
 ```
+import path from 'path'
 const absolutePth = path.resolve();
 console.log(`We are currently working on ,${absolutePth} directory`)
 ```
@@ -21,6 +23,7 @@ We are currently working on F:\CODE\JavaScript\nodjs\path_module directory
 ```
 # Extension name 
 ```
+import path from 'path'
 const extname = path.extname('resume.docx')
 console.log("extname = ",extname)
 /// Output:extname =  .docx
@@ -41,6 +44,7 @@ console.log(extName)
 # file directory
 - **It(`dirname`) will return the immediate file directory**
 ```
+import path from 'path'
  const directoryName = path.dirname('/path_module/index.js')
  console.log(directoryName)
 /// Output:/path_module
@@ -51,6 +55,7 @@ console.log(extName)
 # Base path
 - **It(`basename`) will return the immediate file name or immediate file directory name**
 ```
+import path from 'path'
 const basepath = path.basename('/public/java/constructor.java')
 console.log(basepath)
 ///Output:constructor.java
